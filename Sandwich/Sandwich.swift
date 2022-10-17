@@ -22,9 +22,9 @@ let testData = [
     Sandwich(name: "Green Goddess Pita", ingredientCount: 4, isSpicy: false),
     Sandwich(name: "Grilled White Cheese", ingredientCount: 3, isSpicy: false),
     Sandwich(name: "Northern Soul Grilled Cheese", ingredientCount: 5, isSpicy: true),
-    Sandwich(name: "Sweet Chilli Veggie Mince Wrap", ingredientCount: 8, isSpicy: false), // missing
+    Sandwich(name: "Sweet Chilli Veggie Mince Wrap", ingredientCount: 8, isSpicy: false),
     Sandwich(name: "Toasted Ham and Cheese", ingredientCount: 3, isSpicy: false),
     Sandwich(name: "Triple Meat & Cheese", ingredientCount: 6, isSpicy: true),
-    Sandwich(name: "Vegan Blackbean Burger", ingredientCount: 5, isSpicy: true),
-    Sandwich(name: "Patty Melt", ingredientCount: 4, isSpicy: false)
+    Sandwich(name: "Vegan Blackbean Burger", ingredientCount: 5, isSpicy: true)
+//    Sandwich(name: "Patty Melt", ingredientCount: 4, isSpicy: false)
 ]

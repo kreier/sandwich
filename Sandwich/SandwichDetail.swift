@@ -28,9 +28,10 @@ struct SandwichDetail: View {
                 HStack {
                     Spacer()
                     Label("Spicy", systemImage: "flame.fill")
+                        .padding(.bottom, 15)
                     Spacer()
                 }
-                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                .padding(.all)
                 .font(/*@START_MENU_TOKEN@*/.headline/*@END_MENU_TOKEN@*/)
                 .background(Color.red)
                 .foregroundColor(.yellow)
@@ -39,6 +40,7 @@ struct SandwichDetail: View {
         }
         .navigationTitle(sandwich.name)
         .edgesIgnoringSafeArea(.bottom)
+        .truncationMode(/*@START_MENU_TOKEN@*/.tail/*@END_MENU_TOKEN@*/)
     }
 }
 
