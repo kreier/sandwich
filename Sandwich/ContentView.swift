@@ -8,19 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    var sandwiches: [Sandwich] = []
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List(sandwiches) { sandwich in
+                NavigationLink(destination: Text(sandwich.name)) {
+//                HStack {
+                    Image(sandwich.thumbnailName)
+                        .cornerRadius(8)
+                    VStack(alignment: .leading) {
+                        Text(sandwich.name)
+                        Text("\(sandwich.ingredientCount) ingredients")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }
+                }
+            }
+            .navigationTitle("Sandwiches")
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(sandwiches: testData)
     }
 }
