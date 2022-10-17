@@ -14,7 +14,7 @@ struct Sandwich: Identifiable {
 }
 
 let testData = [
-    Sandwich(name: "Avocado Crepe", ingredientCount: 3, isSpicy: false), //miss
+    Sandwich(name: "Avocado Crepe", ingredientCount: 3, isSpicy: false),
     Sandwich(name: "California Quinoa Burger", ingredientCount: 5, isSpicy: false),
     Sandwich(name: "Caprese", ingredientCount: 4, isSpicy: false),
     Sandwich(name: "Double Wrap Bean Tacos", ingredientCount: 7, isSpicy: true),
@@ -22,7 +22,7 @@ let testData = [
     Sandwich(name: "Green Goddess Pita", ingredientCount: 4, isSpicy: false),
     Sandwich(name: "Grilled White Cheese", ingredientCount: 3, isSpicy: false),
     Sandwich(name: "Northern Soul Grilled Cheese", ingredientCount: 5, isSpicy: true),
-    Sandwich(name: "Sweet Chilli Veggie Mince Wrap", ingredientCount: 8, isSpicy: false), //m
+    Sandwich(name: "Sweet Chilli Veggie Mince Wrap", ingredientCount: 8, isSpicy: false), // missing
     Sandwich(name: "Toasted Ham and Cheese", ingredientCount: 3, isSpicy: false),
     Sandwich(name: "Triple Meat & Cheese", ingredientCount: 6, isSpicy: true),
     Sandwich(name: "Vegan Blackbean Burger", ingredientCount: 5, isSpicy: true),
