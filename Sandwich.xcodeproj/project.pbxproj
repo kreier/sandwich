@@ -16,6 +16,7 @@
 		4D84922228FD1D22006EA7FB /* SandwichUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D84922128FD1D22006EA7FB /* SandwichUITestsLaunchTests.swift */; };
 		4D84922F28FD201D006EA7FB /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D84922E28FD201D006EA7FB /* Sandwich.swift */; };
 		4D84923128FD2031006EA7FB /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D84923028FD2031006EA7FB /* Sandwiches.xcassets */; };
+		4D84923328FD2902006EA7FB /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D84923228FD2902006EA7FB /* SandwichDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4D84922128FD1D22006EA7FB /* SandwichUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4D84922E28FD201D006EA7FB /* Sandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sandwich.swift; path = "../../../../../Downloads/resources-intro-swiftui-wwdc20-10119-master/Sandwich.swift"; sourceTree = "<group>"; };
 		4D84923028FD2031006EA7FB /* Sandwiches.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Sandwiches.xcassets; path = "../../../../../Downloads/resources-intro-swiftui-wwdc20-10119-master/Sandwiches.xcassets"; sourceTree = "<group>"; };
+		4D84923228FD2902006EA7FB /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4D84920328FD1D21006EA7FB /* SandwichApp.swift */,
 				4D84920528FD1D21006EA7FB /* ContentView.swift */,
 				4D84922E28FD201D006EA7FB /* Sandwich.swift */,
+				4D84923228FD2902006EA7FB /* SandwichDetail.swift */,
 				4D84923028FD2031006EA7FB /* Sandwiches.xcassets */,
 				4D84920728FD1D22006EA7FB /* Assets.xcassets */,
 				4D84920928FD1D22006EA7FB /* Sandwich.entitlements */,
@@ -269,6 +272,7 @@
 				4D84920628FD1D21006EA7FB /* ContentView.swift in Sources */,
 				4D84920428FD1D21006EA7FB /* SandwichApp.swift in Sources */,
 				4D84922F28FD201D006EA7FB /* Sandwich.swift in Sources */,
+				4D84923328FD2902006EA7FB /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
