@@ -9,6 +9,10 @@ Apple and Jacob Xiao & Kyle Macomber did not provide their code, so Jay Pricer m
 
 https://github.com/jaypricer/resources-intro-swiftui-wwdc20-10119
 
+Another, probably more complete example is here:
+
+https://github.com/AngeloStavrow/sandwiches-swiftui
+
 ## Challenges
 
 Some part's don't work, like the missing HStack before replaced with NavigationView at minute 10.
