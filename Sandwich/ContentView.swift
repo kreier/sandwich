@@ -62,9 +62,8 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
 //        ContentView(sandwiches: testData)
         ContentView(store: testStore)
-        ContentView(store: testStore)
-            .preferredColorScheme(.dark)
-
+//        ContentView(store: testStore)
+//            .preferredColorScheme(.dark)
     }
 }
 
